@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPanel — La plataforma digital que tu escuela necesita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo-link">
+        <img src="img/logo-edu-panel.png" alt="EduPanel" class="logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#desafio">El Desafío</a></li>
+        <li><a href="#modulos">Módulos</a></li>
+        <li><a href="#asistencia">Asistencia QR</a></li>
+        <li><a href="#seguridad">Seguridad</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto" class="nav-cta">Agendar Demo</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-circles">
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+      <div class="hero-circle c3"></div>
+      <div class="hero-circle c4"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Plataforma Digital Escolar
+        </div>
+        <h1 class="hero-title">
+          La plataforma digital<br/>
+          que tu <span class="gradient-text">escuela<br/>necesita</span>
+        </h1>
+        <p class="hero-subtitle">
+          Comunicación · Asistencia QR · Calificaciones · Inteligencia Artificial
+        </p>
+        <p class="hero-desc">
+          Maestros, padres y administración conectados en tiempo real desde cualquier dispositivo, sin necesidad de instalar nada.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Agendar Demo Gratis</a>
+          <a href="#modulos" class="btn btn-ghost">Ver Módulos</a>
+        </div>
+      </div>
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="phone-header">
+              <div class="phone-avatar"></div>
+              <div>
+                <div class="phone-name">EduPanel</div>
+                <div class="phone-status">● En línea</div>
+              </div>
+            </div>
+            <div class="notif-card notif-blue">
+              <div class="notif-icon">📢</div>
+              <div>
+                <div class="notif-title">Nuevo aviso</div>
+                <div class="notif-body">Reunión de padres — Viernes 4pm</div>
+              </div>
+            </div>
+            <div class="notif-card notif-teal">
+              <div class="notif-icon">📚</div>
+              <div>
+                <div class="notif-title">Nueva tarea</div>
+                <div class="notif-body">Matemáticas: Ejercicios pág. 45</div>
+              </div>
+            </div>
+            <div class="notif-card notif-gold">
+              <div class="notif-icon">📊</div>
+              <div>
+                <div class="notif-title">Nueva calificación</div>
+                <div class="notif-body">Español — Período 2: <strong>9.2</strong></div>
+              </div>
+            </div>
+            <div class="notif-card notif-green">
+              <div class="notif-icon">✅</div>
+              <div>
+                <div class="notif-title">Asistencia registrada</div>
+                <div class="notif-body">Tu hijo llegó a la escuela</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-pill">
+            <div class="stat-num">6</div>
+            <div class="stat-label">Módulos</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Web app</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-num">IA</div>
+            <div class="stat-label">Gemini AI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f5f7ff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- EL DESAFÍO -->
+  <section class="section section-light" id="desafio">
+    <div class="container">
+      <div class="section-label" data-aos="fade-up">El Desafío</div>
+      <h2 class="section-title" data-aos="fade-up">¿Cuáles son los retos que enfrenta<br/>tu escuela hoy?</h2>
+      <p class="section-desc" data-aos="fade-up">
+        Muchas escuelas particulares siguen operando con procesos manuales que generan ineficiencia, errores y padres insatisfechos.
+      </p>
+      <div class="cards-grid" data-aos="fade-up">
+        <div class="problem-card">
+          <div class="problem-icon-wrap red">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4C8.477 4 4 8.477 4 14s4.477 10 10 10 10-4.477 10-10S19.523 4 14 4zm0 5v5l4 2" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <h3>Comunicación lenta</h3>
+          <p>Los avisos llegan tarde en papel o grupos de WhatsApp sin control. Los padres no siempre se enteran a tiempo de eventos, tareas o situaciones importantes.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon-wrap orange">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect x="5" y="7" width="18" height="14" rx="2" stroke="white" stroke-width="2" fill="none"/>
+              <line x1="9" y1="12" x2="19" y2="12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <line x1="9" y1="16" x2="15" y2="16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Registros manuales</h3>
+          <p>Listas de asistencia en papel, calificaciones en hojas de Excel sin respaldo. Imposible consultar histórico en tiempo real ni detectar ausentismo fácilmente.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon-wrap purple">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect x="8" y="4" width="12" height="20" rx="3" stroke="white" stroke-width="2" fill="none"/>
+              <line x1="12" y1="8" x2="16" y2="8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="14" cy="18" r="1.5" fill="white"/>
+            </svg>
+          </div>
+          <h3>Sin acceso digital</h3>
+          <p>Los padres no pueden consultar calificaciones ni tareas desde su celular. Sin notificaciones automáticas, la comunicación es reactiva y costosa en tiempo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA SOLUCIÓN -->
+  <section class="section section-dark" id="solucion">
+    <div class="container">
+      <div class="section-label light" data-aos="fade-up">La Solución</div>
+      <h2 class="section-title light" data-aos="fade-up">EduPanel: gestión escolar<br/>digital completa</h2>
+      <p class="section-desc light" data-aos="fade-up">
+        Una plataforma web moderna, segura y personalizada con el nombre y logo de tu escuela. Sin necesidad de instalar nada.
+      </p>
+      <div class="solution-stats" data-aos="fade-up">
+        <div class="solution-stat">
+          <div class="solution-num">6</div>
+          <div class="solution-label">Módulos<br/>incluidos</div>
+        </div>
+        <div class="solution-divider"></div>
+        <div class="solution-stat">
+          <div class="solution-num">100%</div>
+          <div class="solution-label">Web app<br/>sin instalar</div>
+        </div>
+        <div class="solution-divider"></div>
+        <div class="solution-stat">
+          <div class="solution-num">iOS</div>
+          <div class="solution-label">Compatible<br/>móvil y PC</div>
+        </div>
+        <div class="solution-divider"></div>
+        <div class="solution-stat">
+          <div class="solution-num">IA</div>
+          <div class="solution-label">Gemini AI<br/>integrada</div>
+        </div>
+      </div>
+    </div>
+    <div class="section-wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#f5f7ff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- MÓDULOS -->
+  <section class="section section-light" id="modulos">
+    <div class="container">
+      <div class="section-label" data-aos="fade-up">Módulos del Sistema</div>
+      <h2 class="section-title" data-aos="fade-up">Todo lo que tu escuela necesita<br/>en una sola plataforma</h2>
+      <div class="modules-grid" data-aos="fade-up">
+
+        <div class="module-card" style="--accent: #1a6fd4">
+          <div class="module-icon-circle" style="background: #e8f0ff">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <path d="M5 8h20M5 15h14M5 22h10" stroke="#1a6fd4" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="22" r="4" fill="#1a6fd4"/>
+              <path d="M22 22l1.5 1.5L26 20" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Avisos</h3>
+          <p>Publica comunicados al instante con notificación push automática a todos los padres.</p>
+          <div class="module-tag" style="color:#1a6fd4; background:#e8f0ff">Comunicación</div>
+        </div>
+
+        <div class="module-card" style="--accent: #0d9488">
+          <div class="module-icon-circle" style="background: #e0f5f3">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <rect x="5" y="5" width="20" height="20" rx="3" stroke="#0d9488" stroke-width="2.5" fill="none"/>
+              <path d="M10 12h10M10 17h7" stroke="#0d9488" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="23" cy="23" r="5" fill="#0d9488"/>
+              <path d="M20.5 23l1.5 1.5L25 20.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Tareas</h3>
+          <p>Asigna tareas por materia y grado. Padres ven descripción, materia y fecha de entrega.</p>
+          <div class="module-tag" style="color:#0d9488; background:#e0f5f3">Académico</div>
+        </div>
+
+        <div class="module-card" style="--accent: #f0a500">
+          <div class="module-icon-circle" style="background: #fff8e0">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="10" r="6" stroke="#f0a500" stroke-width="2.5" fill="none"/>
+              <path d="M7 26c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="#f0a500" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M19 13l2 1.5L24 11" stroke="#f0a500" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Calificaciones</h3>
+          <p>Maestros suben calificaciones por período. Cada padre solo ve las de su hijo.</p>
+          <div class="module-tag" style="color:#d97706; background:#fff8e0">Académico</div>
+        </div>
+
+        <div class="module-card" style="--accent: #059669">
+          <div class="module-icon-circle" style="background: #e0f7ee">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <rect x="6" y="6" width="8" height="8" rx="1.5" stroke="#059669" stroke-width="2" fill="none"/>
+              <rect x="16" y="6" width="8" height="8" rx="1.5" stroke="#059669" stroke-width="2" fill="none"/>
+              <rect x="6" y="16" width="8" height="8" rx="1.5" stroke="#059669" stroke-width="2" fill="none"/>
+              <rect x="17.5" y="17.5" width="5" height="5" fill="#059669" rx="1"/>
+            </svg>
+          </div>
+          <h3>Asistencia QR</h3>
+          <p>Un scanner que se coloca en la entrada de la escuela lee la credencial del alumno. Notificación push automática a padres.</p>
+          <div class="module-tag" style="color:#059669; background:#e0f7ee">Control</div>
+        </div>
+
+        <div class="module-card" style="--accent: #7c3aed">
+          <div class="module-icon-circle" style="background: #f0e8ff">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="9" stroke="#7c3aed" stroke-width="2.5" fill="none"/>
+              <path d="M11 15c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4" stroke="#7c3aed" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <circle cx="15" cy="15" r="2" fill="#7c3aed"/>
+            </svg>
+          </div>
+          <h3>Asistente IA</h3>
+          <p>Chat con Gemini AI para que alumnos repasen contenido escolar de sus materias.</p>
+          <div class="module-tag" style="color:#7c3aed; background:#f0e8ff">Inteligencia Artificial</div>
+        </div>
+
+        <div class="module-card" style="--accent: #1a3a6b">
+          <div class="module-icon-circle" style="background: #e8eef8">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <path d="M15 5l2.5 5 5.5.8-4 3.9.95 5.5L15 17.5l-4.95 2.7.95-5.5-4-3.9 5.5-.8L15 5z" stroke="#1a3a6b" stroke-width="2" fill="none" stroke-linejoin="round"/>
+              <path d="M10 22v4M15 22v4M20 22v4" stroke="#1a3a6b" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Notificaciones</h3>
+          <p>Alertas push en tiempo real al celular, aunque la app esté cerrada.</p>
+          <div class="module-tag" style="color:#1a3a6b; background:#e8eef8">Sistema</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMUNICACIÓN EN TIEMPO REAL -->
+  <section class="section section-blue" id="comunicacion">
+    <div class="container">
+      <div class="comm-grid">
+        <div class="comm-content" data-aos="fade-right">
+          <div class="section-label light">Comunicación en Tiempo Real</div>
+          <h2 class="section-title light">Los padres,<br/>siempre informados al instante</h2>
+          <ul class="comm-list">
+            <li>
+              <div class="comm-check">✓</div>
+              <span>Avisos publicados al instante — todos los padres los reciben en su celular con una notificación push.</span>
+            </li>
+            <li>
+              <div class="comm-check">✓</div>
+              <span>Notificaciones push aunque el celular esté apagado o la app esté cerrada. Sin depender de WhatsApp.</span>
+            </li>
+            <li>
+              <div class="comm-check">✓</div>
+              <span>Alertas automáticas cuando se publica una tarea nueva, dirigidas solo al grado correspondiente.</span>
+            </li>
+            <li>
+              <div class="comm-check">✓</div>
+              <span>Notificación personal al padre cuando el maestro sube la calificación de su hijo.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="comm-mockup" data-aos="fade-left">
+          <div class="floating-notifs">
+            <div class="fn-card fn-blue fn-anim1">
+              <div class="fn-icon">📢</div>
+              <div>
+                <div class="fn-title">Nuevo aviso</div>
+                <div class="fn-body">Reunión de padres — Viernes 4pm</div>
+              </div>
+            </div>
+            <div class="fn-card fn-teal fn-anim2">
+              <div class="fn-icon">📚</div>
+              <div>
+                <div class="fn-title">Nueva tarea</div>
+                <div class="fn-body">Matemáticas: Ejercicios pág. 45</div>
+              </div>
+            </div>
+            <div class="fn-card fn-gold fn-anim3">
+              <div class="fn-icon">📊</div>
+              <div>
+                <div class="fn-title">Nueva calificación</div>
+                <div class="fn-body">Español — Período 2: <strong>9.2</strong></div>
+              </div>
+            </div>
+            <div class="fn-card fn-green fn-anim4">
+              <div class="fn-icon">✅</div>
+              <div>
+                <div class="fn-title">Asistencia registrada</div>
+                <div class="fn-body">Tu hijo llegó a las 7:32 am</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASISTENCIA QR -->
+  <section class="section section-light" id="asistencia">
+    <div class="container">
+      <div class="section-label" data-aos="fade-up">Control de Asistencia</div>
+      <h2 class="section-title" data-aos="fade-up">Un scanner en la entrada<br/>de tu escuela</h2>
+      <p class="section-desc" data-aos="fade-up">
+        Cada alumno porta su credencial escolar con su código QR único impreso — al pasarla, los padres reciben una notificación push al instante.
+      </p>
+      <div class="steps-row" data-aos="fade-up">
+        <div class="step-circle-wrap">
+          <div class="step-circle" style="background: linear-gradient(135deg, #1a6fd4, #0d9488)">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <rect x="6" y="6" width="10" height="10" rx="2" stroke="white" stroke-width="2" fill="none"/>
+              <rect x="20" y="6" width="10" height="10" rx="2" stroke="white" stroke-width="2" fill="none"/>
+              <rect x="6" y="20" width="10" height="10" rx="2" stroke="white" stroke-width="2" fill="none"/>
+              <rect x="21.5" y="21.5" width="7" height="7" fill="white" rx="1"/>
+            </svg>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step-num">1</div>
+          <h3>Scanner de entrada</h3>
+          <p>Se coloca en la entrada principal dentro de una caja. Lista para usar.</p>
+        </div>
+        <div class="step-circle-wrap">
+          <div class="step-circle" style="background: linear-gradient(135deg, #059669, #0d9488)">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <rect x="10" y="4" width="16" height="26" rx="3" stroke="white" stroke-width="2" fill="none"/>
+              <rect x="13" y="8" width="10" height="8" rx="1" stroke="white" stroke-width="1.5" fill="none"/>
+              <circle cx="18" cy="24" r="2" fill="white"/>
+            </svg>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step-num">2</div>
+          <h3>Credencial con QR</h3>
+          <p>Cada alumno porta su credencial escolar con su código QR único impreso. Sin celular ni tarjetas adicionales.</p>
+        </div>
+        <div class="step-circle-wrap">
+          <div class="step-circle" style="background: linear-gradient(135deg, #7c3aed, #1a6fd4)">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <rect x="8" y="6" width="14" height="22" rx="3" stroke="white" stroke-width="2" fill="none"/>
+              <path d="M26 14l-4 4-2-2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="28" cy="10" r="5" fill="white" opacity="0.2"/>
+              <path d="M26 8v4M24 10h4" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="step-num">3</div>
+          <h3>Notificación al padre</h3>
+          <p>Al pasar la credencial, la entrada se registra en Firebase y el padre recibe una notificación push al instante.</p>
+        </div>
+      </div>
+      <div class="qr-highlight" data-aos="fade-up">
+        <div class="qr-highlight-icon">⭐</div>
+        <p><strong>Diferenciador clave:</strong> EduPanel incluye la instalación del scanner en la entrada de tu escuela.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALIFICACIONES E IA -->
+  <section class="section section-dark" id="calificaciones">
+    <div class="container">
+      <div class="section-label light" data-aos="fade-up">Calificaciones e Inteligencia Artificial</div>
+      <h2 class="section-title light" data-aos="fade-up">Más que calificaciones:<br/>aprendizaje inteligente</h2>
+      <div class="calif-grid" data-aos="fade-up">
+        <div class="calif-card">
+          <div class="calif-icon-wrap blue">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="14" r="7" stroke="white" stroke-width="2.5" fill="none"/>
+              <path d="M9 32c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M22 11l2 2-4 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Calificaciones</h3>
+          <ul class="calif-list">
+            <li>Maestros suben calificaciones por materia y período directamente desde el dashboard.</li>
+            <li>Cada padre consulta solo las notas de su propio hijo — total privacidad.</li>
+            <li>Notificación push automática al padre cuando se registra una nueva calificación.</li>
+            <li>Historial completo por alumno, materia y período escolar.</li>
+          </ul>
+        </div>
+        <div class="calif-card">
+          <div class="calif-icon-wrap purple">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="11" stroke="white" stroke-width="2.5" fill="none"/>
+              <path d="M13 18c0-2.76 2.24-5 5-5s5 2.24 5 5-2.24 5-5 5" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <circle cx="18" cy="18" r="2.5" fill="white"/>
+            </svg>
+          </div>
+          <h3>Asistente de IA</h3>
+          <ul class="calif-list ai">
+            <li>Chat inteligente impulsado por Google Gemini AI — el modelo más avanzado del momento.</li>
+            <li>Los alumnos pueden repasar contenido de cualquier materia conversando con el asistente.</li>
+            <li>La clave de API nunca llega al navegador — seguridad total mediante Cloud Functions.</li>
+            <li>Historial de conversación de hasta 20 turnos para un repaso continuo y contextual.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section-wave-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,60 C480,0 960,80 1440,20 L1440,80 L0,80 Z" fill="#f5f7ff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SEGURIDAD -->
+  <section class="section section-light" id="seguridad">
+    <div class="container">
+      <div class="section-label" data-aos="fade-up">Seguridad y Confiabilidad</div>
+      <h2 class="section-title" data-aos="fade-up">Tecnología de nivel empresarial<br/>para tu escuela</h2>
+      <p class="section-desc" data-aos="fade-up">
+        EduPanel está construido sobre la infraestructura de Google Firebase — la misma que usan millones de aplicaciones a nivel mundial.
+      </p>
+      <div class="security-grid" data-aos="fade-up">
+        <div class="security-card">
+          <div class="security-circle" style="background: linear-gradient(135deg, #1a6fd4, #0d9488)">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M16 4l10 4v8c0 5.5-4.3 10.6-10 12-5.7-1.4-10-6.5-10-12V8l10-4z" stroke="white" stroke-width="2" fill="none"/>
+              <path d="M11 16l3 3 7-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Roles de acceso</h3>
+          <p>Maestros y padres tienen permisos distintos. Un padre nunca puede ver datos de otro alumno. El admin controla los usuarios.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-circle" style="background: linear-gradient(135deg, #059669, #0d9488)">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect x="8" y="13" width="16" height="12" rx="3" stroke="white" stroke-width="2" fill="none"/>
+              <path d="M11 13v-3a5 5 0 0 1 10 0v3" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+              <circle cx="16" cy="19" r="1.5" fill="white"/>
+            </svg>
+          </div>
+          <h3>Datos encriptados</h3>
+          <p>Toda la comunicación usa HTTPS/TLS. Los datos en Firestore tienen reglas de seguridad estrictas verificadas en el servidor.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-circle" style="background: linear-gradient(135deg, #7c3aed, #1a6fd4)">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="12" r="5" stroke="white" stroke-width="2" fill="none"/>
+              <path d="M8 28c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+              <path d="M22 10l2 2-4 4" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Autenticación segura</h3>
+          <p>Login con Firebase Auth — el estándar de Google. Recuperación de contraseña automática por correo electrónico.</p>
+        </div>
+        <div class="security-card">
+          <div class="security-circle" style="background: linear-gradient(135deg, #f0a500, #d97706)">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="11" stroke="white" stroke-width="2" fill="none"/>
+              <path d="M16 10v6l4 2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>99.9% disponibilidad</h3>
+          <p>Google Firebase garantiza alta disponibilidad con backups automáticos. Tu información siempre estará protegida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section section-pricing" id="precios">
+    <div class="container">
+      <div class="section-label light" data-aos="fade-up">Inversión</div>
+      <h2 class="section-title light" data-aos="fade-up">Precio simple, justo<br/>y escalable</h2>
+      <p class="section-desc light" data-aos="fade-up">
+        Sin mensualidades fijas. Tu escuela paga exactamente por lo que usa.
+      </p>
+
+      <div class="price-hero" data-aos="fade-up">
+        <div class="price-circle">
+          <div class="price-amount">$200</div>
+          <div class="price-unit">MXN por alumno / mes</div>
+        </div>
+        <div class="price-includes">
+          <div class="price-item"><span class="pi-check">✓</span> Todos los módulos incluidos</div>
+          <div class="price-item"><span class="pi-check">✓</span> App con el logo de tu escuela</div>
+          <div class="price-item"><span class="pi-check">✓</span> Scanner de entrada instalado*</div>
+          <div class="price-item"><span class="pi-check">✓</span> Soporte técnico continuo</div>
+        </div>
+      </div>
+
+      <div class="pricing-table" data-aos="fade-up">
+        <div class="pt-header">
+          <div>Alumnos</div>
+          <div>Mensualidad</div>
+          <div>Activación*</div>
+          <div>Beneficio inst.</div>
+        </div>
+        <div class="pt-row">
+          <div><span class="pt-badge">100</span> alumnos</div>
+          <div class="pt-price">$20,000 <span>MXN/mes</span></div>
+          <div>$5,500</div>
+          <div class="pt-benefit">$5,000 / mes</div>
+        </div>
+        <div class="pt-row pt-featured">
+          <div><span class="pt-badge featured">200</span> alumnos</div>
+          <div class="pt-price">$40,000 <span>MXN/mes</span></div>
+          <div>$5,500</div>
+          <div class="pt-benefit">$10,000 / mes</div>
+        </div>
+        <div class="pt-row">
+          <div><span class="pt-badge">300</span> alumnos</div>
+          <div class="pt-price">$60,000 <span>MXN/mes</span></div>
+          <div>$5,500</div>
+          <div class="pt-benefit">$15,000 / mes</div>
+        </div>
+        <div class="pt-row">
+          <div><span class="pt-badge">500+</span> alumnos</div>
+          <div class="pt-price">$100,000+ <span>MXN/mes</span></div>
+          <div>$8,000</div>
+          <div class="pt-benefit">$25,000+ / mes</div>
+        </div>
+      </div>
+      <p class="pt-note">* Cuota de activación única: cubre instalación del scanner de entrada + configuración. Precios en MXN.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO / CTA -->
+  <section class="section section-light" id="contacto">
+    <div class="container">
+      <div class="cta-card" data-aos="fade-up">
+        <div class="cta-circles">
+          <div class="cta-c1"></div>
+          <div class="cta-c2"></div>
+        </div>
+        <div class="cta-content">
+          <div class="cta-badge">¿Listo para digitalizar tu escuela?</div>
+          <h2>Agenda una demostración<br/>gratuita y personalizada</h2>
+          <p>Nuestro equipo te mostrará EduPanel adaptado a tu institución, sin compromisos.</p>
+          <div class="cta-actions">
+            <a href="mailto:correo@ejemplo.com" class="btn btn-primary">Escribir por correo</a>
+            <a href="https://wa.me/5512345678" class="btn btn-whatsapp">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 2C5.58 2 2 5.58 2 10c0 1.49.41 2.88 1.12 4.07L2 18l4.05-1.08C7.2 17.6 8.57 18 10 18c4.42 0 8-3.58 8-8s-3.58-8-8-8zm3.78 11.27c-.16.46-1.15.9-1.58.94-.4.04-.78.15-2.64-.55-2.22-.84-3.64-3.1-3.75-3.24-.11-.14-.9-1.2-.9-2.29 0-1.09.57-1.62.78-1.84.2-.22.45-.27.6-.27h.43c.14 0 .33-.05.51.39.18.44.62 1.52.67 1.63.05.11.09.24.01.38-.07.14-.11.23-.22.35-.11.12-.24.27-.34.36-.11.11-.23.22-.1.44.13.22.58.96 1.25 1.56.86.77 1.58 1.01 1.8 1.12.22.11.35.09.48-.05.13-.14.54-.63.68-.85.14-.22.29-.18.48-.11.2.07 1.25.59 1.47.7.22.11.36.16.41.25.06.09.06.51-.1.97z" fill="currentColor"/>
+              </svg>
+              WhatsApp
+            </a>
+          </div>
+          <div class="cta-contact-info">
+            <span>correo@ejemplo.com</span>
+            <span>·</span>
+            <span>(55) 1234-5678</span>
+            <span>·</span>
+            <span>www.edupanel.mx</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="img/logo-edu-panel.png" alt="EduPanel" class="logo-img logo-img-footer" />
+      <div class="footer-desc">Plataforma Digital Escolar · www.edupanel.mx</div>
+      <div class="footer-links">
+        <a href="#modulos">Módulos</a>
+        <a href="#asistencia">Asistencia QR</a>
+        <a href="#seguridad">Seguridad</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-copy">© 2025 EduPanel. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
